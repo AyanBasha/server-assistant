@@ -1,9 +1,9 @@
 {
   "services": [
-    {"name": "Proxmox", "url": "https://<PROXMOX_IP>:8006", "timeout": 5},
-    {"name": "Jellyfin", "url": "http://<JELLYFIN_IP>:8096", "timeout": 5},
-    {"name": "Home Assistant", "url": "http://<HA_IP>:8123", "timeout": 5},
-    {"name": "Pi-hole", "url": "http://<PIHOLE_IP>/admin", "timeout": 5},
+    {"name": "Proxmox", "url": "https://192.168.5.26:8006", "timeout": 5},
+    {"name": "Jellyfin", "url": "http://192.168.5.14:8096", "timeout": 5},
+    {"name": "Home Assistant", "url": "http://192.168.5.9:8123", "timeout": 5},
+    {"name": "Pi-hole", "url": "http://192.168.5.5/admin", "timeout": 5},
     {"name": "Internet Connectivity", "url": "https://1.1.1", "timeout": 3}
   ]
 }
